@@ -1,0 +1,8 @@
+.isDone {
+  text-decoration: line-through;
+}
+
+.item-text,
+.item-checkbox {
+  display: inline-block;
+}

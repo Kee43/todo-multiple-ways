@@ -1,0 +1,10 @@
+<h1>
+  {{ title }}
+</h1>
+
+<div *ngFor="let item of todoItems">
+  <div class="item-text" [class.isDone]="item.isDone">{{ item.text }}</div>
+    <input class="item-checkbox" type="checkbox" [(ngModel)]="item.isDone" [ngModelOptions]="{standalone: true}"/>
+</div>
+
+<input #newItem type="text" id="newItem" name="newItem" [(ngModel)]="newItemText"><button (click)="addItem()">Add Item</button>
