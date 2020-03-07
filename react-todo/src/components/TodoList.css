@@ -1,0 +1,9 @@
+.IsDone {
+    text-decoration: line-through;
+  }
+  
+  .ItemText,
+  .ItemCheckbox {
+    display: inline-block;
+  }
+  

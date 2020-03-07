@@ -7,4 +7,5 @@
     <input class="item-checkbox" type="checkbox" [(ngModel)]="item.isDone" [ngModelOptions]="{standalone: true}"/>
 </div>
 
-<input #newItem type="text" id="newItem" name="newItem" [(ngModel)]="newItemText"><button (click)="addItem()">Add Item</button>
+<input #newItem type="text" id="newItem" name="newItem" [(ngModel)]="newItemText">
+<button (click)="addItem()">Add Item</button>
